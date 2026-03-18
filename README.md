@@ -12,6 +12,8 @@ An interactive, high-performance 2D cellular automata simulator written in C++ w
 - **Visual customization**:
   - Choose alive cell color: red, green, or blue.
   - Optional **fog effect**: dead cells fade based on how long ago they were alive.
+![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e94ce76c-c1d5-4645-946f-91f8b5da5d01)
+
 
 ## Technologies Used
 
@@ -45,6 +47,7 @@ In project properties:
 - **C/C++ → General → Additional Include Directories**: add SDL3 `include`.
 - **Linker → General → Additional Library Directories**: add SDL3 `lib`.
 - **Linker → Input → Additional Dependencies**: ensure `SDL3.lib` (or equivalent).
+- Put SDL3.dll into folder with .exe file
 - Make sure the SDL3 DLL is reachable at runtime (next to the exe or on `PATH`).
 
 ### 4. Build
